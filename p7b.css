@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(189, 238, 240);
+}  
+h1{
+    text-align: center;
+}  
+form, #received-container{
+background-color: rgb(152, 206, 237);
+margin: 50px;
+padding: 20px 50px;
+}
+input{
+margin: 10px 0px;
+width: 100%;
+background-color: rgb(242, 204, 193);
+padding: 5px;
+}
+#btn{
+text-align: center;
+}
+#received-container{
+    text-align: center;
+}

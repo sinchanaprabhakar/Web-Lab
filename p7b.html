@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Details Form</title>
+    <link rel="stylesheet" href="p7b.css" />
+    <script src="p7b.js" defer></script>
+  </head>
+  <body>
+      <h1>Details Form</h1>
+      <form action="/" id="reg-form">
+            <label >Name</label>
+            <input type="text" id="name" required/>
+            <label>Email</label>
+            <input type="email" id="email" required/>
+            <label>Mobile No.</label>
+            <input type="text" id="mobile-no" required/>
+            <label>Gender</label>
+            <input type="text" id="gender" required/>
+            <label>Favourite Color</label>
+            <input type="text" id="fav-col" required/>
+        <div id="btn">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+      <div id="received-container">
+        <h3>Received Details</h3>
+        <textarea id="received" cols="80" rows="15"></textarea>
+      </div>
+  </body>
+</html>
