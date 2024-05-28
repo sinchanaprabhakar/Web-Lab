@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Feedback Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='p2a.css'>
+</head>
+<body>
+    <h1>Student Feedback Form</h1>
+    <form>
+        <h2>Student Details:</h2>
+        <label>Name:</label>
+        <input type="text" required/>
+        <label>USN:</label>
+        <input type="varchar" required/>
+        <label>Section:</label>
+        <input type="text" required/>
+        <label>Semester:</label>
+        <input type="text" required/>
+        <label>Branch:</label>
+        <input type="text" required/>
+        <label>Email:</label>
+        <input type="email" required/>
+        <div class="questions">
+            <h2>Questions:</h2>
+                <h4>Was the teacher punctual to the class?</h4>
+                <li>
+                <input type="radio" name="ques-1">
+                <label>Yes</label>
+                </li>
+                <li>
+                <input type="radio" name="ques-1">
+                <label>No</label>
+                </li>
+                <h4>Was the teacher:</h4>
+                <select>
+                    <option value="1">Satisfying</option>
+                    <option value="2">Dissatisfying</option>
+                </select>
+                <h4>Was the teacher:</h4>
+                <li>
+                    <input type="checkbox">
+                    <label>Helpful</label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>Knowledgeable</label>
+                </li>
+                <li>
+                    <input type="checkbox">
+                    <label>Understandable</label>
+                </li>
+                <h4>Any suggestions?</h4>
+                <textarea></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
