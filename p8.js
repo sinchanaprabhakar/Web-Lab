@@ -13,7 +13,7 @@ formElement.addEventListener("submit", function (event) {
       formElement[i].id === "marks-2" ||
       formElement[i].id === "marks-3"
     ) {
-      if (!formElement[i].value.match(alphaExp)) {
+      if (formElement[i].value.match(alphaExp)) {
         alert("Marks field contains an alphabet !!");
         return;
       }
